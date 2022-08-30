@@ -1,0 +1,155 @@
+@media (max-width: 1024px){
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body{display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  align-items: center;
+  background-image: url(../img/templo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+#container-registro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%;
+  height:80%;
+  margin: 0 auto;
+
+}
+
+#banner {
+  background-image: url(../img/tianshu-liu-SBK40fdKbAg-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+#camada-banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(69, 210, 2550, 0.3);
+  height: 100%;
+  border-radius: 10px 10px  0 0 ;
+  text-align: center;
+  width: 100%;
+}
+
+#camada-banner h1 {
+  font-size: 34px;
+  margin-top: 92px;
+  word-spacing: 50rem;
+  color:#ffffff;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+
+#formulario {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#formulario form {
+  display: flex;
+  flex-direction: column;
+}
+
+#formulario h2 {
+  font-size: 32px;
+  color: #0c0c0c;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#formulario p {
+  margin: 20px 0;
+  color: #000;
+  text-align: center;
+  align-items: center;
+}
+#formulario form p {
+  margin: 0 0 20px 0;
+}
+
+form span{
+  font-weight: 600;
+}
+
+
+form label{
+  color: #0c0c0c;
+}
+
+form input {
+  background-color: #fafafa;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: #0c0c0c;
+  padding: 5px;
+  font-size: 14px;
+  margin: 3px 0 20px 0;
+}
+
+#senha-gerada {
+  color: #0c0c0c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  padding: 10px 20px;
+  border: 1px solid #0c0c0c;
+  border-radius: 10px;
+  margin: 20px auto 40px auto;
+  display: none;
+}
+
+#senha-gerada p {
+  margin-bottom: 20px;
+}
+
+ #senha-gerada  h4 {
+  color:#2F8B20 ;
+}
+
+#enviar{
+  border: none;
+  color: #fafafa;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #2F8B20;
+  border-radius: 10px;
+  padding: 10px 20px;
+
+  max-width: 200px;
+  cursor: pointer;
+  align-self: center;
+  transition: .3s;
+}
+
+#enviar:hover {
+  background-color: #3CBC27;
+}
+
+}
