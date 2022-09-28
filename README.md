@@ -4,9 +4,9 @@
 
 :construction: Projeto em processo de atualização :construction:
 
-## Desafio proposto pelo meu mentor, o objetifo era criar um script para gerar senhas seguras que contenha numeros, letras maiusculas e minusculas e numeros.
+## Desafio proposto pelo meu mentor, o objetivo era criar um script para gerar senhas seguras que contenha números, letras maiúsculas e minúsculas e números.
 
-Pretendo evoluir o projeto, melhorando a responsividade e o layout mobile, adicionar novas fucionalidades, como um botao de copiar a senha gerada por exemplo, e criar novas paginas, transformando-o em um site de turismo para amantes do Japão.
+Pretendo evoluir o projeto, melhorar a responsividade e o layout mobile, adicionar novas funcionalidades, como um botão de copiar a senha gerada por exemplo, e criar novas páginas, transformando-o em um site de turismo para amantes do Japão.
 
 <h1> :hammer:Ferramentas:hammer: </h1>
 
@@ -17,7 +17,8 @@ Pretendo evoluir o projeto, melhorando a responsividade e o layout mobile, adici
 Foi utilizado CSS básico, estou estudando para melhorar a parte de responsividade com o Flex box e adicionar Grid onde for conveniente.
 
 * JavaScript
-Foi utilizado JavaScript puro, apenas funcoes simplis para gerar a senha e manipulação do dom para inserir texto ao HTML.
+Foi utilizado JavaScript puro, apenas funções simples para gerar a senha e manipulação do dom para inserir texto ao HTML.
 
-## :link: Você pode acessar o porjeto por esse link:
+## :link: Você pode acessar o projeto por esse link:
 https://security-password.netlify.app
+
